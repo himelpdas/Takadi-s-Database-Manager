@@ -10,8 +10,8 @@ db.define_table("customer",
 Field("first_name"),
 Field("last_name"),
 Field("address"),
-Field("telephone", requires=[IS_MATCH('^1?((-)\d{3}-?|\(\d{3}\))\d{3}-?\d{4}$',
-         error_message='Use the format (123)456-7890'),
+Field("telephone", requires=[IS_MATCH('\([0-9][0-9][0-9]\)[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]',
+         error_message='Use the format (123)456-7890 (no spaces)'),
          IS_NOT_IN_DB(db, "customer.telephone")
                             ]),
 auth.signature
