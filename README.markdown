@@ -12,3 +12,5 @@ Below is the project's description and screenshots of the website:
 ![project2.png](https://bitbucket.org/repo/d4XKR8/images/1356842391-project2.png)
 
 ![project4.png](https://bitbucket.org/repo/d4XKR8/images/412309588-project4.png)
+
+![graph.png](https://bitbucket.org/repo/d4XKR8/images/4202333361-graph.png)
